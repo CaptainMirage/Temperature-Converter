@@ -1,6 +1,6 @@
 # Temperature Converter
 
-This Rust program provides a smart temperature conversion utility. It can convert temperatures between Fahrenheit, Celsius, and Kelvin scales.
+This Rust program provides a simple temperature conversion utility (i did it for practice). It can convert temperatures between Fahrenheit, Celsius, and Kelvin scales.
 
 ## Features
 
@@ -15,7 +15,7 @@ The main function `smart_convert_temp` takes a string input and attempts to pars
 
 1. Identifies the temperature scale (F, C, or K)
 2. Parses the numerical value
-3. Converts the temperature to the other two scales
+3. Converts the temperature to the other two scales (i dont wanna ask the user cuz frankly i dont care)
 4. Returns the results formatted to three decimal places
 
 ## Usage
@@ -31,6 +31,7 @@ Run the program to see conversions for a predefined set of test cases. These cas
 ## Note
 
 This implementation does not currently support scientific notation for temperature inputs.
+It also freaks out when you try to say words like i said markiplier there, it thought its a Kelvin scale becuase the first letter it found was K in mark 
 
 Feel free to modify the test cases or integrate the function into your own projects!
 
